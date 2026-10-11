@@ -1,0 +1,8 @@
+system_id: bookchaowalit/private/solo-health
+prefix: CARD
+brand: "SOLO HEALTH"
+subtitle: "Cell ของ health metrics"
+footer: "solo-health — Product Card"
+color: "#2a9d8f"
+audience: internal
+tier: L0
