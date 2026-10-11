@@ -1,0 +1,27 @@
+# Health cell: an empty cell made from the retired SQLite tables (health_metrics).
+# The domain had no rows when it left the control plane (2026-10-11); new features are built here.
+cell: health
+title: Health
+resources:
+  health-metric:
+    table: health_metrics
+    plural: health-metrics
+    filters: []
+    fields:
+      source:
+        type: text
+        required: true
+      metric_type:
+        type: text
+        required: true
+      value:
+        type: real
+        required: true
+      unit:
+        type: text
+      recorded_at:
+        type: timestamp
+        required: true
+      metadata:
+        type: text
+
