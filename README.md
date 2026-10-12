@@ -8,8 +8,8 @@ HTTP with the caller's token.
 
 | | |
 |---|---|
-| API | Railway project `solo-health`, service `health-api` (Serverless) |
-| Data | Neon project `solo-health`, database `health` |
+| API | Railway project `health-metrics`, service `health-api` (Serverless) |
+| Data | Neon project `health-metrics`, database `health` |
 | Registry | solo-empire `repository-catalog/registries/online-systems.yaml` (`health`) |
 
 ## API
