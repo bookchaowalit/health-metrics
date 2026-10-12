@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "health": {
+      "command": ".venv/bin/health-mcp",
+      "args": []
+    }
+  }
+}
