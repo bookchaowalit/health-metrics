@@ -1,5 +1,4 @@
-# health-metrics
-
+# life-health-api
 The Health cell: its own API (Railway, serverless) and its own Neon
 database, described by `cell.yaml` and served by the code in `src/cellkit/`, which
 this repository owns. It
@@ -8,8 +7,8 @@ HTTP with the caller's token.
 
 | | |
 |---|---|
-| API | Railway project `health-metrics`, service `health-api` (Serverless) |
-| Data | Neon project `health-metrics`, database `health` |
+| API | Railway project `life-health-api`, service `health-api` (Serverless) |
+| Data | Neon project `life-health-api`, database `health` |
 | Registry | solo-empire `repository-catalog/registries/online-systems.yaml` (`health`) |
 
 ## API
